@@ -9,4 +9,11 @@
     <string name="sura_name">Sura Name</string>
     <string name="ahadeth_text">Ahadeth</string>
     <string name="number_of_tasbeh">Number of Dhikr</string>
+
+    <array name="listofazkar">
+        <item>سبحان الله </item>
+        <item>الحمد لله </item>
+        <item>الله اكبر </item>
+        <item>لا إله إلا الله </item>
+    </array>
 </resources>
