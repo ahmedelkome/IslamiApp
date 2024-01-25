@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Islami_App</string>
+    <string name="islami">Islami</string>
+    <string name="quran">Quran</string>
+    <string name="ahadeth">Ahadeth</string>
+    <string name="sebha">Sebha</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sura_name">Sura Name</string>
+    <string name="ahadeth_text">Ahadeth</string>
+    <string name="number_of_tasbeh">Number of Dhikr</string>
 </resources>

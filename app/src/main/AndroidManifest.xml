@@ -6,17 +6,17 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_splash"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_splash"
         android:supportsRtl="true"
         android:theme="@style/Theme.Islami_App"
         tools:targetApi="31" >
         <activity
-            android:name=".splash.home.HomeScreenActivity"
+            android:name=".ui.home.HomeScreenActivity"
             android:exported="false" />
         <activity
-            android:name=".splash.SplashScreenActivity"
+            android:name=".ui.splash.SplashScreenActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

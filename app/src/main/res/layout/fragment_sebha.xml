@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.FragmentSebha">
+
+
+<ImageView
+    android:id="@+id/head_sebha"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:src="@drawable/headofsebha"
+    android:background="@android:color/transparent"
+    app:layout_constraintHeight_percent=".20"
+    android:layout_marginTop="10dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    />
+    <ImageView
+        android:id="@+id/body_sebha"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/bodyofsebha"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="115dp"
+        />
+    <TextView
+        android:id="@+id/number_of_dhikr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_tasbeh"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/lightblack"
+        app:layout_constraintTop_toBottomOf="@id/body_sebha"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/counter_dhikr"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/counter_box"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/number_of_dhikr" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@id/counter_dhikr"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        tools:text="Sobhan Allah"
+        android:textSize="25sp"
+        android:textColor="@color/lightblack"
+        android:background="@drawable/counter_box"
+        android:gravity="center"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
