@@ -3,11 +3,6 @@
     <style name="Base.Theme.Islami_App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <item name="colorPrimary">@color/color_priamary</item>
-        <item name="colorPrimaryVariant">@color/primary_variant</item>
-        <item name="colorAccent">@color/primary_variant</item>
-        <item name="colorPrimaryDark">@color/primary_variant</item>
-        <item name="colorOnPrimary">@color/primary_variant</item>
         <item name="android:statusBarColor">@color/primary_variant</item>
-        <item name="android:navigationBarColor">@color/primary_variant</item>
     </style>
 </resources>
