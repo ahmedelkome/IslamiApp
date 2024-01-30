@@ -16,26 +16,27 @@ class HomeScreenActivity : AppCompatActivity() {
         binding = ActivityHomeScreenBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        showFragment(fragmnet = FragmentQuran())
+        showFragment( FragmentQuran())
         navigateIcon()
+
     }
 
     private fun navigateIcon()
     {
-        binding.bottomNav.setOnItemSelectedListener {
+        binding.bottomNav.setOnItemSelectedListener {menuitem ->
 
-            if (it.itemId == R.id.ic_quran)
+            if (menuitem.itemId == R.id.ic_quran)
             {
-                showFragment(fragmnet = FragmentQuran())
-            }else if(it.itemId == R.id.ic_ahadeth)
+                showFragment(FragmentQuran())
+            }else if(menuitem.itemId == R.id.ic_ahadeth)
             {
-                showFragment(fragmnet = FragmentAhadeth())
-            }else if(it.itemId == R.id.ic_sebha) {
-                showFragment(fragmnet = FragmentSebha())
+                showFragment( FragmentAhadeth())
+            }else if(menuitem.itemId == R.id.ic_sebha) {
+                showFragment( FragmentSebha())
             }
-            else if(it.itemId == R.id.ic_radio)
+            else if(menuitem.itemId == R.id.ic_radio)
             {
-                showFragment(fragmnet = FragmentRadio())
+                showFragment(FragmentRadio())
             }
 
             return@setOnItemSelectedListener true

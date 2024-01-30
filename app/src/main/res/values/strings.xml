@@ -1,19 +1,20 @@
 <resources>
-    <string name="app_name">Islami_App</string>
-    <string name="islami">Islami</string>
-    <string name="quran">Quran</string>
-    <string name="ahadeth">Ahadeth</string>
-    <string name="sebha">Sebha</string>
+    <string name="app_name">إسلامى</string>
+    <string name="islami">إسلامى</string>
+    <string name="quran">قرآن</string>
+    <string name="ahadeth">أحاديث</string>
+    <string name="sebha">سبحة</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="sura_name">Sura Name</string>
-    <string name="ahadeth_text">Ahadeth</string>
-    <string name="number_of_tasbeh">Number of Dhikr</string>
-
+    <string name="sura_name">اسم السورة</string>
+    <string name="ahadeth_text">أحاديث</string>
+    <string name="number_of_tasbeh">عدد الاذكار </string>
+    <string name="ayaat_number">عدد الآيات</string>
     <array name="listofazkar">
-        <item>سبحان الله </item>
-        <item>الحمد لله </item>
-        <item>الله اكبر </item>
-        <item>لا إله إلا الله </item>
+        <item>سبحان الله</item>
+        <item>الحمد لله</item>
+        <item>الله اكبر</item>
+        <item>لا إله إلا الله</item>
     </array>
+
 </resources>

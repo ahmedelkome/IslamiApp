@@ -31,7 +31,7 @@ class FragmentSebha : Fragment() {
     }
 
     private fun onSebhaClick() {
-        binding.bodySebha.setOnClickListener {
+        binding.counterDhikr.setOnClickListener {
             binding.bodySebha.rotation += (360/33).toFloat()
             if (counter<33)
             {
