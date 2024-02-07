@@ -13,7 +13,7 @@
         android:layout_marginTop="18dp"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="@color/lightblack"
+        android:textColor="@color/title_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layoutDirection="rtl"
-                android:textColor="@color/lightblack"
+                android:textColor="@color/title_content"
                 android:textAlignment="center"
                 android:textSize="25sp" />
         </ScrollView>

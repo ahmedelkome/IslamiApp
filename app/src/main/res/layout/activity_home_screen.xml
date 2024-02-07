@@ -18,7 +18,7 @@
         android:layout_marginTop="18dp"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="@color/lightblack"
+        android:textColor="@color/title_color"
         />
 
     <FrameLayout
@@ -35,7 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@color/color_priamary"
+        android:background="@color/bottom_back"
         app:menu="@menu/menu_btn_nav"
         app:itemIconSize="32dp"
         app:itemTextColor="@color/color_select"

@@ -5,5 +5,11 @@
     <color name="color_priamary">#B7935F</color>
     <color name="primary_variant">#B7935F</color>
     <color name="Linegold">#B7935F</color>
+    <color name="counter_back">#B7935F</color>
+    <color name="dhikr_back">@color/color_priamary</color>
+    <color name="bottom_back">@color/color_priamary</color>
+    <color name="bronzze">#FACC1D</color>
+    <color name="title_color">#242424</color>
+    <color name="title_content">@color/lightblack</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

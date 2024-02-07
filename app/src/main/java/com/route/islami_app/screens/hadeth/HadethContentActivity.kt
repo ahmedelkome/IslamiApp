@@ -3,13 +3,10 @@ package com.route.islami_app.screens.hadeth
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.ActionMode
 import android.view.MenuItem
-import com.route.islami_app.R
 import com.route.islami_app.constants.Constants
 import com.route.islami_app.databinding.ActivityHadethContentBinding
-import com.route.islami_app.databinding.ActivitySuraContentBinding
-import com.route.islami_app.module.HadethModel
+import com.route.islami_app.model.HadethModel
 
 class HadethContentActivity : AppCompatActivity() {
     lateinit var binding: ActivityHadethContentBinding

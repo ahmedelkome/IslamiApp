@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:text="َإذاعة القرآن الكريم"
         android:layout_marginTop="20dp"
-        android:textColor="@color/lightblack"
+        android:textColor="@color/title_color"
         android:textSize="25sp"
         android:textStyle="bold"
         />

@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.route.islami_app.R
-import com.route.islami_app.module.HadethModel
+import com.route.islami_app.model.HadethModel
 
 class HadethAdapter(val Hadeths : List<HadethModel>): RecyclerView.Adapter<HadethAdapter.HadethNameViewHolder>(){
 

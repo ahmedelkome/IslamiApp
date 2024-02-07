@@ -47,7 +47,6 @@ class HomeScreenActivity : AppCompatActivity() {
         supportFragmentManager
             .beginTransaction()
             .replace(R.id.fragment_container,fragmnet)
-            .addToBackStack("")
             .commit()
     }
 }

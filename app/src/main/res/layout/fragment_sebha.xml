@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/general_back"
     tools:context=".fragments.FragmentSebha">
 
 
@@ -47,7 +48,7 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="44dp"
-        android:background="@drawable/counter_box"
+        android:background="@color/counter_back"
         android:gravity="center"
         android:text="0"
         android:textSize="25sp"
@@ -67,7 +68,7 @@
         tools:text="Sobhan Allah"
         android:textSize="25sp"
         android:textColor="@color/lightblack"
-        android:background="@drawable/counter_box"
+        android:background="@color/dhikr_back"
         android:gravity="center"
 
         />
